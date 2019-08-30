@@ -33,5 +33,5 @@
 
 - `schema.sql` will be loaded and init database when application is starting
 - navigate to web console`http://localhost:8080/h2-console`
-- put `jdbc:h2:file:./h2-db/h2` in `JDBC URL` field
+- put `jdbc:h2:file:./h2-db/h2;MODE=Oracle` in `JDBC URL` field
 - we choose file as the h2 storage for migration practice
